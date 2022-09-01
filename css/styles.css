@@ -970,7 +970,7 @@ align-items: center;
 }
 
 .cards-1 .card-title {
-	margin-bottom: 0.625rem;
+	margin-bottom: 1.625rem;
 }
 
 .CBtypes {
@@ -1404,7 +1404,7 @@ align-items: center;
 /************************/
 .filter {
 	/*padding-top: 6.5rem;*/
-	padding-bottom: 7rem;
+	padding-bottom: 5rem;
 }
 
 .filter .section-title {
@@ -2615,7 +2615,7 @@ a:hover.back-to-top {
 }
 
 .what {
-  margin-top: 5px;
+  margin-top: 105px;
   margin-bottom: 35px;
 }
 
@@ -2627,4 +2627,10 @@ a:hover.back-to-top {
   display: flex;
   flex-direction: column;
   justify-content: center;
+}
+
+.emailColor,
+.emailColor:hover {
+  color: #008EEC;
+  font-weight: bold;
 }

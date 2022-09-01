@@ -131,20 +131,20 @@ button::-moz-focus-inner {
   top: 0;
   text-decoration: none;
   text-align: center;
-  opacity: 0.65;
+  color: #333;
   padding: 0 0 18px 10px;
-  color: #FFF;
   font-style: normal;
   font-size: 28px;
+  transition: .3s;
   font-family: Arial, Baskerville, monospace; }
   .mfp-close:hover,
   .mfp-close:focus {
-    opacity: 1; }
+    color: #008EEC;}
   .mfp-close:active {
     top: 1px; }
-
+/*
 .mfp-close-btn-in .mfp-close {
-  color: #333; }
+  color: #333; }*/
 
 .mfp-image-holder .mfp-close,
 .mfp-iframe-holder .mfp-close {
