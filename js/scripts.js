@@ -24,7 +24,7 @@
 	/* Navbar Scripts */
 	// jQuery to collapse the navbar on scroll
     $(window).on('scroll load', function() {
-		if ($(".navbar-custom").offset().top > 730) {
+		if ($(".navbar-custom").offset().top > 400) {
 			$(".fixed-top").addClass("bg-change");
 		} else {
 			$(".fixed-top").removeClass("bg-change");
