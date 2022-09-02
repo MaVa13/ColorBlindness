@@ -1252,7 +1252,7 @@ pre code {
   .col-lg-12 {
     -ms-flex: 0 0 100%;
     flex: 0 0 100%;
-    max-width: 100%;
+    max-width: 100%;    
   }
   .order-lg-first {
     -ms-flex-order: -1;
@@ -4169,6 +4169,7 @@ input[type="button"].btn-block {
   justify-content: space-between;
   padding: 0.5rem 1rem;
 }
+
 
 .navbar > .container,
 .navbar > .container-fluid {
@@ -7723,6 +7724,8 @@ button.bg-dark:focus {
   .float-sm-none {
     float: none !important;
   }
+
+
 }
 
 @media (min-width: 768px) {
@@ -7735,6 +7738,7 @@ button.bg-dark:focus {
   .float-md-none {
     float: none !important;
   }
+
 }
 
 @media (min-width: 992px) {
@@ -7759,6 +7763,8 @@ button.bg-dark:focus {
   .float-xl-none {
     float: none !important;
   }
+
+
 }
 
 .overflow-auto {
@@ -7790,13 +7796,7 @@ button.bg-dark:focus {
   position: sticky !important;
 }
 
-.fixed-top {
-  position: fixed;
-  top: 0;
-  right: 0;
-  left: 0;
-  z-index: 1030;
-}
+
 
 .fixed-bottom {
   position: fixed;
