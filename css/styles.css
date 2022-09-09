@@ -2029,6 +2029,9 @@ a:hover.back-to-top {
 
 /* Min-width width 768px */
 @media (min-width: 768px) {
+  .header {
+    height: 100vh;
+  }
   .header .btn-solid-lg {
     display: block;
   }
