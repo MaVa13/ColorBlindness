@@ -830,7 +830,7 @@ input[type='checkbox'] {
 .header {
 	background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)), url('../images/header-bg.jpg') center no-repeat;
 	background-size: cover;
-  height: 100vh
+  height: 90vh;
 }
 
 .header .header-content {
@@ -840,12 +840,20 @@ input[type='checkbox'] {
 }
 
 .header .text-container {
-	margin-bottom: 3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
 }
+
 
 .header h1 {
 	margin-bottom: 0.5rem;
 	color: #fff;
+  font: 700 2rem/4rem "Montserrat", sans-serif;
+  text-shadow: 1.5px 1.5px #2f2f2f;
+  width: 85%;
 }
 
 .header .p-large {
@@ -856,11 +864,12 @@ input[type='checkbox'] {
 .header .btn-solid-lg {
 	margin-right: 0.5rem;
 	margin-bottom: 1.25rem;
+  display: none;
 }
-
+/*
 .main-header {
   margin-top: -50px;
-}
+}*/
 
 
 /*********************/
@@ -2009,6 +2018,7 @@ a:hover.back-to-top {
   .filter .element-item {
   	width: 50%;
   }
+
 }
 
 
@@ -2019,6 +2029,9 @@ a:hover.back-to-top {
 
 /* Min-width width 768px */
 @media (min-width: 768px) {
+  .header .btn-solid-lg {
+    display: block;
+  }
   .kontakt-text {
     width: 70%;
   }
